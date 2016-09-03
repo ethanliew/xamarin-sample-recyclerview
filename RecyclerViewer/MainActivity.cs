@@ -26,6 +26,8 @@ namespace RecyclerViewer
         // Photo album that is managed by the adapter:
         PhotoAlbum mPhotoAlbum;
 
+        Button buttonTest;
+
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
@@ -35,6 +37,15 @@ namespace RecyclerViewer
 
 			// Set our view from the "main" layout resource:
 			SetContentView (Resource.Layout.Main);
+
+            buttonTest = FindViewById<Button>(Resource.Id.buttonTest);
+
+            buttonTest.Click+=delegate {
+                Toast.MakeText(this.ApplicationContext, "test", ToastLength.Long).Show();
+            };
+
+
+
 
             // Get our RecyclerView layout:
 			mRecyclerView = FindViewById<RecyclerView> (Resource.Id.recyclerView);

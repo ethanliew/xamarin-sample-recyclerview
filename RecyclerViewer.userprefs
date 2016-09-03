@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{C7F5D818-C203-47A2-AFB4-60078932730E}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="RecyclerViewer/MainActivity.cs">
     <Files>
-      <File FileName="RecyclerViewer/MainActivity.cs" Line="143" Column="49" />
+      <File FileName="RecyclerViewer/PhotoAlbum.cs" Line="19" Column="40" />
+      <File FileName="RecyclerViewer/MainActivity.cs" Line="46" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -6,10 +6,16 @@
     <Button
         android:id="@+id/randPickButton"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="55.5dp"
         android:gravity="center_horizontal"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Random Pick" />
+        android:text="Random Pick"
+        android:layout_marginRight="0.0dp" />
+    <Button
+        android:text="Pull Data From Server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonTest" />
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:scrollbars="vertical"
