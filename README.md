@@ -1,3 +1,10 @@
+# xamarin-sample-recycleview
+
+
+
+Credit to Mark McLemore.
+
+
 RecyclerViewer
 ==============
 
